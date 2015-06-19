@@ -1,0 +1,97 @@
+#testSlide .ui-tabs-panel{ 
+	width:400px; height:250px; 
+	background:#999;position:absolute;
+  top:0px;
+}
+#testSlide{
+  width:440px;
+  height:250px;
+  position:relative;
+  padding-right:200px;
+}
+#testSlide .ui-tabs-nav2{
+  padding:0; margin:0;
+  position:absolute;
+  list-style:none;                            
+  top:0px; 
+  right:0px;
+  height:250px; z-index:1;
+  opacity:1;
+}
+
+
+#testSlide .ui-tabs-nav2 .ui-tabs-nav2-item{
+  width:190px;
+  height:83.2px;
+  opacity: 1;
+  padding-left:10px; 
+                  
+}
+
+
+#testSlide .ui-tabs-nav2 .ui-tabs-selected{
+   background:#be2817;
+   box-shadow: 2px 1px 22px #555;
+   color:white;
+}
+/* #testSlide .ui-tabs-nav2 .ui-tabs-selected div{
+    position:absolute;
+    top:0px;
+   width:170px;
+  height:93.2px;
+  opacity: 1;     
+   background:#666262;
+   box-shadow: 2px 1px 22px #555;
+   z-index:4;
+} */
+
+#testSlide .ui-tabs-nav2 .ui-tabs-selected a{
+    color:white;
+}
+#testSlide .ui-tabs-nav2 .ui-tabs-nav2-item a{
+  opacity: 1;
+  cursor:pointer;
+  display:block; 
+	height:83.2px;
+  text-decoration:none;
+   z-index:3; 
+}
+#testSlide .ui-tabs-nav2 .ui-tabs-nav2-item span{
+  vertical-align: middle;
+  display: inline-block;
+  line-height: 1.2;
+  text-align: left;
+  padding-top:10px;
+  padding-bottom:10px;
+}
+
+#testSlide .ui-tabs-panel .testInfo{
+  background-color:black;
+  padding-top:1px;
+  margin-top: -111px;
+  opacity: 0.5;
+  color:white;
+  display:none;
+  height:110px;
+  width:440px;
+  line-height:15px;
+}
+#testSlide .ui-tabs-panel img{
+  width:440px;
+  height:250px;
+}
+#testSlide .ui-tabs-panel .testInfo a{
+  text-decoration:none;
+  color:white;
+  opacity: 1;            
+}
+#testSlide .ui-tabs-panel .testInfo span{
+  opacity: 1;  
+}
+
+#testSlide .ui-tabs-hide{
+  display:none;
+}
+#testSlide .active{
+  display:block;
+}
