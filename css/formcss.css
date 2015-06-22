@@ -1,0 +1,107 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 9 janv. 2015, 16:37:44
+    Author     : gille_000
+*/
+#container
+{
+  min-width: 470px;
+
+}
+
+.inscription{
+        background-color:#ecf0f1;
+        padding:20px 20px;
+        border-radius: 10px;
+         
+    }
+    .inscription_input{
+      width:95%;
+       margin: 5px 5px 10px 5px;
+    } 
+    .center{     
+      margin-left: 730px;
+    
+    }
+     .center_text{
+        
+      margin: 0 auto;
+       text-align:center;
+    }
+
+    #submitInscription, #btn_login\/logout{
+        background-color: #F39C12;
+    }
+    #submitInscription{
+        width:100%;
+        
+    }
+    
+    #submitInscription:hover, #btn_login\/logout:hover{
+         background-color: rgba(243,156,1,0.6);
+    }
+    
+   
+    
+  
+    
+    
+.wrap {
+  width: 1800px;
+  margin: 0 auto;
+}
+
+/* -------------------------------------
+ * Bar container
+ * ------------------------------------- */
+.progress-radial {
+ 
+  margin-right: 30px;
+  position: relative;
+  width: 180px;
+  height: 180px;
+  border-radius: 50%;
+
+  background-color: tomato;
+  margin:auto;
+}
+
+/* -------------------------------------
+ * Optional centered circle w/text
+ * ------------------------------------- */
+.progress-radial .overlay {
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  background-color:white;
+  border-radius: 50%;
+  margin:15% 0 0 15%;
+  text-align: center;
+  line-height: 60px;
+ 
+}
+
+
+.progress-25 {
+  background-image: linear-gradient(90deg, #adafae 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(180deg, #f29400 50%, #adafae 50%, #adafae);
+}
+
+
+.progress-50 {
+  background-image: linear-gradient(-90deg, #f29400 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #f29400 50%, #adafae 50%, #adafae);
+}
+
+
+.progress-75 {
+  background-image: linear-gradient(0deg, #f29400 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #f29400 50%, #adafae 50%, #adafae);
+}
+
+
+
+.progress-100 {
+  background-image: linear-gradient(90deg, #f29400 50%, rgba(0, 0, 0, 0) 50%, rgba(0, 0, 0, 0)), linear-gradient(270deg, #f29400 50%, #2f3439 50%, #2f3439);
+}

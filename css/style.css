@@ -1,0 +1,18 @@
+.table-right{
+    text-align: right;
+}
+
+.profil_util{
+    background-color: #e5e9ea;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.note-heading{
+    padding-right:10px;
+    color: #A49777;
+}
