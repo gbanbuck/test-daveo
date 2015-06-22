@@ -64,7 +64,7 @@ var myApp = angular.module('myApp',['ngAnimate']);
 		  });
     }]);
 	myApp.controller('slideVideo', ['$scope', '$http', function ($scope,$http){
-		$scope.affiche = false;
+		$scope.affiche = true;
 		$http({
 		    method: 'GET',
 		    url: '//localhost/auctionproject/app/webroot/video.json'
@@ -80,8 +80,8 @@ var myApp = angular.module('myApp',['ngAnimate']);
 		    // erreur de récupération :(
 		  });
 		  $scope.afficher = function(){
-		  	if($scope.affiche==false) $scope.affiche=true;
-		  	else $scope.affiche=false;
+		  	if($scope.affiche==true) $scope.affiche=false;
+		  	else $scope.affiche=true;
 		  }
 
 	}]);

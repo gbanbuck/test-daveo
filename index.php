@@ -21,7 +21,7 @@ and open the template in the editor.
         <div class="col-left video">
             <div ng-controller="slideVideo" >
                 <a href="" ng-click="afficher()">Afficher la video</a>
-                <div ng-show="affiche" class="embed-responsive embed-responsive-16by9 video ng-enter">
+                <div ng-hide="affiche" class="embed-responsive embed-responsive-16by9 video ng-enter">
                     <iframe width="853" height="480" src="https://www.youtube.com/embed/f6ZlPAzB8nk" frameborder="0" allowfullscreen></iframe>
                     <a href="inscription.php">page inscription</a>
                 </div>
